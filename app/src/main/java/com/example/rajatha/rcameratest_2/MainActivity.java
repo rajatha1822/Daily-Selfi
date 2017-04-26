@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private AlarmManager mAlarmManager;
     private Intent mNotificationReceiver;
     private PendingIntent mPendingIntent;
-    private static final long INITIAL_ALARM_DELAY = 1 *60* 1000L;
+    private static final long INITIAL_ALARM_DELAY = 60* 1000L;
     private static final  long TWO_MIN=2*60*1000L;
 
 
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
+/*Alarm control function*/
     private void alarmControl(){
 
         mAlarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
